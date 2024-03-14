@@ -1,5 +1,21 @@
 ![Visitor Count](https://profile-counter.glitch.me/amwalding1/count.svg)
 # Wireshark Profiles Repository
+Если вам иногда приходится работать в Wireshark, а любому админу рано или поздно приходится это делать, то у меня для вас есть полезный репозиторий. Даже если он вам сейчас не нужен, сохраните его. Пригодится, когда расчехлите Wireshark.
+
+⇨ https://github.com/amwalding/wireshark_profiles
+
+Здесь собрано множество готовых профилей для анализа того или иного трафика. Рассказываю на пальцах, как им пользоваться.
+
+⃣ Скачиваете из репозитория zip файл нужного вам профиля. Например, DNS.
+
+⃣ В Wireshark идёте в раздел Edit ⇨ Configuration Profiles. Жмёте Import from zip files и импортируете скачанный профайл в zip файле. Выбираете его.
+
+⃣ Выбираете сетевой интерфейс, с которого хотите собирать пакеты. Откроется основной интерфейс программы с готовыми настройками фильтров.
+
+⃣ Потом загруженные фильтры можно быстро переключать в правом нижнем углу программы.
+
+Ничего особенного тут нет, можно и самому набросать себе нужные фильтры. Но тут всё сделали за нас, упростив задачу. Как минимум, не помешают базовые фильтры на DNS, DHCP, HTTP, ARP, SMB, VLAN и т.д.
+
 Welcome to all my Fellow Packet Analysts/Sniffers, Network Troubleshooters, and Wireshark geeks!
 
 We have been asked countless times over the years to share, and provide a sharing place for, Wireshark Profiles.  
